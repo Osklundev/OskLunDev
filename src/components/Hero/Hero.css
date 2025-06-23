@@ -1,0 +1,39 @@
+.heroWrapper {
+
+    height: 25vh;
+    border-bottom: 2px solid rgb(76, 76, 76);
+    margin: 0 5% 0 5%;
+
+    .heroWrapper__desc {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+
+        .scssIcon {
+            position: relative;
+            left: 25%;
+        }
+        span {
+        width: 65px;
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        gap: 0.5rem;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        width: 245px;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    }
+    h2 {
+        margin: 0 0 0.5rem 0;
+    }
+    
+}
+

@@ -1,11 +1,10 @@
-import { RouterProvider } from "react-router";
 import "./App.css";
-import { Router } from "./Router";
+import { Portfolio } from "./components/Portfolio";
 
 function App() {
   return (
     <>
-      <RouterProvider router={Router}></RouterProvider>
+      <Portfolio />
     </>
   );
 }
