@@ -6,7 +6,7 @@ export const NavBar = () => {
       <a href="#top">
         <h1>Oskar Lundberg</h1>
       </a>
-      <a href="#contact">
+      <a href="mailto:Osklundev@gmail.com">
         <p>Contact</p>
       </a>
     </header>
