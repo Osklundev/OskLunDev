@@ -19,8 +19,8 @@ export const projectList: Project[] = [
   },
   {
     title: "Todo",
-    img: "",
-    url: "",
+    img: "https://media.discordapp.net/attachments/82814527707549696/1387043653129736282/image.png?ex=685be890&is=685a9710&hm=4acff19fa173331cdaf689fe6857dc52960876bc9eec4601ffee9f8baf0142c6&=&format=webp&quality=lossless&width=1411&height=670",
+    url: "https://medieinstitutet.github.io/fed24d-the-last-todos-Osklundev/",
     description: "School assignment to create a todo list in react",
     current: false,
   },
