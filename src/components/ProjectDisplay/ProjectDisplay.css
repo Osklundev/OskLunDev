@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 1rem;
   margin: 15% 5% 0 5%;
-  height: 62vh;
+  min-height: 62vh;
 }
 
 .projectWrapper__imageWrapper {
@@ -28,7 +28,6 @@
 
 .projectWrapper__menu {
   width: 100%;
-  overflow-x: auto;
 
   button {
     width: 33.33%;
