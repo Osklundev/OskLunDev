@@ -19,5 +19,9 @@ header {
         margin-left: 0.25rem;
         font-size: 2rem;
     }
+
+    a {
+        color: white;
+    }
 }
 

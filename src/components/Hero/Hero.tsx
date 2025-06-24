@@ -99,12 +99,13 @@ export const Hero = () => {
             ></path>
           </svg>
         </span>
-        <p>
-          I am a front-end development student at Medieinstitutet, graduating
-          spring 2026.
-          <br /> <br />I burn for creating accessible and good looking
-          experiences.
-        </p>
+        <div className="textWrapper">
+          <p>
+            I am a front-end development student at Medieinstitutet, graduating
+            spring 2026.
+          </p>
+          <p>I burn for creating accessible and good looking experiences.</p>
+        </div>
       </div>
     </div>
   );
