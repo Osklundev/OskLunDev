@@ -6,7 +6,7 @@ import { PortfolioHero } from "./PortfolioHero";
 export const MyPortfolio = () => {
   return (
     <>
-      <PortfolioHeader />
+      {/* <PortfolioHeader /> */}
       <PortfolioHero />
       <PortfolioBody />
       <PortfolioFooter />

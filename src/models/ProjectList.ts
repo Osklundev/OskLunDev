@@ -9,7 +9,7 @@ export const projectList: Project[] = [
     img: JurassicSite,
     url: "https://medieinstitutet.github.io/fed24d-grafiska-verktyg-kejsartamarinerna/",
     description:
-      "School project where we were divided into groups, and first had to design a project and then exchange our designs with another group and create the website for whatever design we were handed",
+      "Group assignment for school  where we were divided into groups, and first had to design a project and then exchange our designs with another group and create the website for whatever design we were handed",
     current: false,
   },
   {
@@ -17,14 +17,15 @@ export const projectList: Project[] = [
     img: QuizSite,
     url: "https://medieinstitutet.github.io/fed24d-js-intro-inl-2-quiz-ballerinas/",
     description:
-      "School project to create a quiz, we chose a quiz about the ballerina cookie, once again group project",
+      "Group assignment for school to create a quiz, we chose a quiz about the ballerina cookie. Entire workflow from design in Figma to finished product. We worked using agile with daily standups and sprints.",
     current: false,
   },
   {
     title: "Todo",
     img: TodoSite,
     url: "https://medieinstitutet.github.io/fed24d-the-last-todos-Osklundev/",
-    description: "School assignment to create a todo list in react",
+    description:
+      "Individual school assignment to create a todo list in react, uses lifting state up and general react mechanics aswell as material UI",
     current: false,
   },
 ];
