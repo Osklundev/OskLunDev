@@ -1,10 +1,12 @@
 import "./App.css";
-import { Portfolio } from "./components/Portfolio";
+import { MyPortfolio } from "./components/MyPortfolio";
+// import { Portfolio } from "./components/Portfolio";
 
 function App() {
   return (
     <>
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <MyPortfolio />
     </>
   );
 }
