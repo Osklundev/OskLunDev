@@ -23,7 +23,7 @@ export const PortfolioBody = () => {
             <div className="min-w-1/2 text-center">
               <h3 className="font-bold text-xl m-3">Technologies</h3>
               <ul className="grid grid-cols-3 gap-8 italic text-sm">
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -39,7 +39,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>HTML</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -55,7 +55,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>CSS</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     className="scssIcon"
                     xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>SCSS</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -86,7 +86,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>TailwindCSS</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -131,7 +131,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>Material UI</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -145,7 +145,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>Javascript</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -159,7 +159,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>Typescript</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -175,7 +175,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>React</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -191,7 +191,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>Vue</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -207,7 +207,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>Node.JS</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
@@ -221,7 +221,7 @@ export const PortfolioBody = () => {
                   </svg>
                   <span>Express</span>
                 </li>
-                <li className="flex gap-2">
+                <li className="flex gap-2 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     x="0px"
