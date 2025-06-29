@@ -4,7 +4,7 @@ export const PortfolioProjects = () => {
   return (
     <section className="col-start-3 col-end-5 overflow-auto md:max-h-screen mt-10">
       <div>
-        <h2 className="text-center font-bold underline m-5 mb-0 bg-stone-900 m-5 drop-shadow-xl drop-shadow-red-500/75 border-2 border-red-400 border-b-0">
+        <h2 className="text-2xl text-center font-bold m-5 mb-0 bg-stone-900 m-5 drop-shadow-xl drop-shadow-red-500/75 border-2 border-red-400 border-b-0">
           Projects
         </h2>
         {projectList.map((p) => (
