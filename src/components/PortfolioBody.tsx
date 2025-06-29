@@ -2,42 +2,84 @@ import { PortfolioProjects } from "./PortfolioProjects";
 
 export const PortfolioBody = () => {
   return (
-    <div
-      id="body"
-      className="min-h-screen md:flex md:flex-col md:justify-between"
-    >
-      <section>
-        <h2 className="text-center font-bold border-b-2 max-w-30 m-auto">
-          Who am I?
-        </h2>
-        <div className="p-2 flex md:max-w-1/2 md: m-auto">
-          <div className="min-w-1/2 text-center">
-            <h3 className="font-bold underline">Technologies</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SCSS</li>
-              <li>TailwindCSS</li>
-              <li>Material UI</li>
-              <li>Javascript</li>
-              <li>Typescript</li>
-              <li>React</li>
-              <li>Vue</li>
-              <li>Node.JS</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-            </ul>
+    <div id="body" className="min-h-screen md:grid grid-cols-4">
+      <h1 className="md:backdrop-blur-none backdrop-blur-sm fixed top-0 inset-x-0 z-999 text-5xl text-center font-bold max-w-auto m-auto col-start-1 col-end-5">
+        Oskar Lundberg
+      </h1>
+      <section className="col-start-1 col-end-3 md:flex flex-col justify-between">
+        <div className="bg-stone-900 m-5 mt-11.5 drop-shadow-lg drop-shadow-red-500/50 border-t-2 border-red-400">
+          <h2 className="text-center font-bold underline max-w-30 m-auto">
+            ME!
+          </h2>
+          <div className="p-2 flex">
+            <div className="min-w-1/2 text-center">
+              <h3 className="font-bold underline">Technologies</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SCSS</li>
+                <li>TailwindCSS</li>
+                <li>Material UI</li>
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>React</li>
+                <li>Vue</li>
+                <li>Node.JS</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div className="text-center flex flex-col justify-around">
+              <p>
+                I am a Frontend Development student at Medieinstitutet,
+                graduating spring 2026.
+              </p>
+              <p>
+                I am eager to learn and interested in the field as a whole, bit
+                of a blank page you can form to your needs.
+              </p>
+            </div>
           </div>
-          <div className="text-center flex flex-col justify-around">
-            <p>
-              I am a Frontend Development student at Medieinstitutet, graduating
-              spring 2026.
-            </p>
-            <p>
-              I am eager to learn and in general a quick study with alot of
-              hours racked up infront of a computer screen throughout life.
-            </p>
-          </div>
+        </div>
+        <div className="bg-stone-900 m-5 drop-shadow-lg drop-shadow-red-500/50 border-t-2 border-red-400 text-center">
+          <h2 className="font-bold">Contact info:</h2>
+          <ul>
+            <li>
+              <a href="mailto:Osklundev@gmail.com">Osklundev@gmail.com</a>
+            </li>
+          </ul>
+          <ul className="flex text-center gap-2 justify-center m-5 md:m-0">
+            <li>
+              <a href="https://github.com/OskLunDev" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 30 30"
+                  fill="white"
+                >
+                  <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/oskar-lundberg-7aa425222/">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 50 50"
+                  fill="white"
+                >
+                  <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
 

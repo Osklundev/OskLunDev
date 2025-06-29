@@ -2,15 +2,15 @@ import { projectList } from "../models/ProjectList";
 
 export const PortfolioProjects = () => {
   return (
-    <section>
-      <h3 className="text-center font-bold border-b-2 max-w-30 m-auto">
-        Projects
-      </h3>
-      <div className="md:flex">
+    <section className="col-start-3 col-end-5 overflow-auto md:max-h-screen">
+      <div>
+        <h2 className="text-center font-bold underline max-w-30 m-auto">
+          Projects
+        </h2>
         {projectList.map((p) => (
-          <div className="m-5 border-b-6 border-b-amber-500">
+          <div className="bg-stone-900 m-5 drop-shadow-xl drop-shadow-red-500/75 border-2 border-red-400">
             <a href={p.url} target="_blank">
-              <img src={p.img} alt={p.title} className="md:max-w-96" />
+              <img src={p.img} alt={p.title} className="md:max-w-full" />
             </a>
             <div>
               <h4 key={p.title} className="font-bold md:text-center">
